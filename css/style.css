@@ -1,134 +1,89 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Volkhov', serif; */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}    
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
 }
 
-.first_screen{
-    padding: 47px 0 105px;
-}
-
-header {
+header {    
+    margin: 0 auto;    
+    width: 1280px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 35px 0px 12px 0px;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;    
-    width: 485px;
+    width: 270px;
 }
 
-nav ul a, .btn_login, .btn_sign {
-    text-decoration: none;
-    font-family: 'Open Sans';
+nav ul a {
+    text-decoration: none;    
     font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    color: #212832;
-}
-
-.btn_top {
-    width: 210px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.btn_sign {
-    border: 1px solid #FFA90F;
-    border-radius: 5px;
-    padding: 9px 23px;
-    color: #FFA90F;
-}   
-
-.hero_info {
-    width: 1200px;
-    margin: 18px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.hero_desc h3 {
-    color: #DF6951;
-    text-transform: uppercase;    
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.hero_desc h1 {
-    font-family: 'Volkhov';    
-    font-weight: 700;
-    font-size: 84px;
-    line-height: 89px;
-    letter-spacing: -0.04em;
-    color: #181E4B;
-    width: 545px;
-    margin: 25px 0;
-}
-
-.hero_desc p{
     font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    color: #5E6282;
-    width: 477px;
-}
-
-.btn_hero {
-    width: 380px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 34px;
-}
-
-.btn_find {
-    background: #F1A501;
-    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
-    border-radius: 10px;
-    padding: 18px 25px;
-    text-decoration: none;
-    font-family: 'Open Sans';
     font-size: 18px;
-    font-weight: 400;
-    color: #FFFFFF;
+    color:  rgb(0, 0, 0); 
 }
 
-.btn_play {
-    width: 165px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.btn_login {
+    width: 200px;
+    height: 54px;
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 5px;
     font-weight: 500;
-    font-size: 17px;
-    color: #686D77;
-    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 153, 255);
 }
 
-.play {
-    width: 52px;
-    height: 52px;
-    border-radius: 100%;
-    background: #DF6951;
-    padding: 13.5px;
-    text-align: center;
-    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+.hosp_info {
+    margin: 0px auto;
+    width: 1280px;      
+    display: flex;    
+    align-items: center;
 }
 
-.second_screen h3, .third_screen h3 {
+.hosp_desc h1 {
+    margin-bottom: 32px;
+    width: 632px;
+    height: 122px;    
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize    
+}
+
+.hosp_desc p {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: rgb(153, 153, 153);
+}
+
+.btn_check {
+    width: 200px;
+    height: 54px;    
+    align-items: center;
+    background: rgb(0, 153, 255);
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* .second_screen h3, .third_screen h3 {
 font-weight: 600;
 font-size: 18px;
 text-align: center;
@@ -257,4 +212,4 @@ color: #5E6282;
 
 .card3 {
     background-image: url(../img/europe.png);
-}
+} */
