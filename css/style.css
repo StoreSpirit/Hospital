@@ -40,6 +40,10 @@ nav ul a {
     color: rgb(0, 153, 255);
 }
 
+.doc_img {
+    margin-bottom: 80px;
+}
+
 .hosp_info {
     margin: 0px auto;
     width: 1280px;      
@@ -58,7 +62,7 @@ nav ul a {
     text-transform: capitalize    
 }
 
-.hosp_desc p {
+.hosp_desc_text {
     margin-bottom: 30px;
     font-weight: 500;
     font-size: 20px;
@@ -81,6 +85,117 @@ nav ul a {
     color: rgb(255, 255, 255);
 }
 
+.serv_funk {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 785px;
+    background: rgba(215, 241, 246, 0.34);  
+}
+
+.serv_funk_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_title_text {    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;    
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: rgb(51, 51, 51);
+    margin-bottom: 20px;
+}
+
+.funk_title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: rgb(51, 51, 51);
+    text-align: center;    
+}
+
+.card_serv {
+    display: flex;
+    justify-content: space-between;
+    width: 1098px;
+}
+
+.card {    
+    height: 230px;
+    width: 308px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;    
+}
+
+.card_serv_img {
+    position: relative;
+    bottom: 70px;
+    left: 95px;
+}
+
+.card_serv_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 50px;    
+}
+
+.card_serv_disc {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: rgb(153, 153, 153);
+    width: 194px;
+}
+
+.img_info_wrapper {    
+    height: 675px;
+    background-image: url(../img/background_circle.png);
+    background-repeat: no-repeat;    
+    background-position: 5px 40px;    
+    margin: 70px 45px 90px 0px;
+}
+
+.text_about{
+    position: relative;
+    top: -40px
+}
+
+.info_nav_title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: rgb(51, 51, 51);    
+}
+
+.info_title {    
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: rgb(51, 51, 51);
+    margin: 20px 0px 30px 0px;
+}
+
+.info_text{  
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 183.5%;
+    letter-spacing: 0.03em;
+    color: rgb(153, 153, 153);
+    margin-bottom: 60px;
+}
 
 
 /* .second_screen h3, .third_screen h3 {
