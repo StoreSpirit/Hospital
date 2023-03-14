@@ -197,7 +197,88 @@ nav ul a {
     margin-bottom: 60px;
 }
 
+.doctors {
+    height: 883px;
+    padding-top: 100px;
+}
 
+.doctors_profiles{
+    width: 1280px;
+    margin-top: 82px;
+}
+
+.card_doctor {
+    width: 308px;
+    height: 396px;    
+    margin-bottom: 155px;
+}
+
+.doc_img_back_1{
+    background-image: url(../img/dr_Moeharman.png);
+    background-repeat: no-repeat;
+}
+
+.doc_img_back_2{
+    background-image: url(../img/Antonius_Jansen.png);
+    background-repeat: no-repeat;
+}
+
+.doc_img_back_3{
+    background-image: url(../img/Nadya_Navira.png);
+    background-repeat: no-repeat;
+}
+
+.doc_img_back_4{
+    background-image: url(../img/Muhammad_Ali_Syahputra.png);
+    background-repeat: no-repeat;
+}
+
+
+.doc_info_card {
+    position: relative;
+    top: 320px;
+    left: 25px;    
+    width: 260px;
+    height: 139px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25px;   
+}
+
+.doc_link{
+    display: block;
+    width: 12px;
+    height: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.doctor_links {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;       
+}
+
+.doctor_name{   
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: rgb(51, 51, 51);
+}
+
+.doctor_prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;    
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #333333;
+}
 /* .second_screen h3, .third_screen h3 {
 font-weight: 600;
 font-size: 18px;
