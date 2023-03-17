@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>    
     <header>
@@ -21,7 +22,35 @@
                 <li><a href="#">Service</a></li>                        
             </ul>
         </nav>
-        <button class="btn_login">Login</button>                    
+        <button class="btn_login" id="login-open">Login</button>
+        <div class="back_drop_login" id="back-drop-login">
+            <div class="log_wrapper">
+                <button class="log_close" id="login-close">&times;</button>
+                <div class="log_text">
+                    <h1>Login</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem.</p>
+                </div>        
+                <div class="button_log">
+                    <button class="apple">                   
+                        <img src="./img/apple.png" alt="apple_logo">                    
+                    </button>
+                    <button class="facebook">
+                        <img src="./img/facebook.png" alt="facebook_logo">
+                    </button>
+                    <button class="google">
+                        <img src="./img/google.png" alt="google_logo">
+                    </button>                
+                </div>
+                <img src="img/Line.png" alt="line">               
+                <form action="main.php">
+                    <input class="email" type="email" placeholder="  yourmail@email.com">
+                    <input class="pass" type="password" placeholder="  •••••••••••••">
+                    <input class="checkbox" type="checkbox"> Remember me         
+                    <a class="forg_pass" href="#">Forgot password?</a>
+                    <input class="sumbit" type="submit" value="Enter">                
+                </form>
+            </div>
+        </div>                            
     </header>        
     <main>
         <article class="hosp_info">                        
@@ -205,7 +234,19 @@
                     <h2 class="callback_title">Let's consult your health with our doctor</h2>
                 <p class="callback_text">we will provide the best service.</p>
                 </div>
-                <button class="callback_btn">Contact us</button>
+                <button id="modal-open" class="callback_btn">Contact us</button>
+            </div>
+            <div class="back-drop" id="back-drop">            
+                <form id="form_call" class="modal_callback" action="main.php">
+                    <input type="button" class="modal-close" id="modal-close" value="&times;">
+                    <div id="callback_form" class="callback_form">                
+                        <h2 id="h2_form_call">We can callback you</h2>
+                        <input id="name_inp" class="name" type="text" placeholder="   Your name">
+                        <input id="email_inp" class="email" type="email" placeholder="   yourmail@email.com">
+                        <input id="tel_inp" class="tel" type="tel" placeholder="   Your phone number">
+                        <input class="sumbit" type="submit" value="Reserve callback">
+                    </div>
+                </form>
             </div>
         </article>       
     </main>
